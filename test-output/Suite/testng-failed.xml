@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="password" value="dellpe2600"/>
+    <parameter name="passwordNull" value=""/>
+    <parameter name="passwordWrong" value="ABCD"/>
+    <parameter name="username" value="115773673"/>
+    <classes>
+      <class name="com.testng.TestLoginQQFailure2">
+        <methods>
+          <include name="testLoginQQFailure2" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testng.TestLoginQQFailure2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
